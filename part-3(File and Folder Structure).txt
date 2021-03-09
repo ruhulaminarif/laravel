@@ -1,0 +1,57 @@
+Folder Structure
+================
+
+Where We Write Html?
+=====================
+resources> Views
+
+Where We Write Model?
+======================
+App > Models
+structure and relationship of underlying database table
+
+
+Where We Write Controller?
+=============================
+App > HTTP > Controllers
+directing traffic among the Views and the Models.
+
+*Middleware
+===============
+Middleware provide a convenient mechanism for inspecting and filtering HTTP requests entering your application.
+For example, Laravel includes a middleware that verifies the user of your application is authenticated.
+ 
+
+Where We Write Routing?
+==========================
+routes>web.php
+Route is a way of creating a request URL of your application.
+
+Where We Write Migrations?
+============================
+Database>migrations
+Laravel migration is a way that allows you to create a table in your database
+
+Where We Store File?
+=====================
+public Folder 
+
+Where We Configration?
+Config
+Database Configration .env file
+
+Where Dependency laravel File ?
+
+=============================
+
+App> Console > Kernel.php
+
+* Bootstrap
+Appleaction Load ar kaj kore HTML ar sathe
+
+* Config 
+
+all File Configration
+
+
+
