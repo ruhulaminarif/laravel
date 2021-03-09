@@ -1,0 +1,28 @@
+* What is Composer?
+
+Composer is a Dependency Manager For Php.
+
+*What is Laravel?
+
+> Php Framework
+> For Developing Web App and API
+> Free Of Cost
+> Modern Framework and Easy to Use
+> The Most used framework in php
+
+* History and Version
+
+First Release > June 2011
+Current Version > 8
+Developer Name > Taylor otwell
+Written in > PHP
+
+* Why Use laravel
+
+> Strong Command Line Support
+> Large Community
+> Regular Updates
+> Fast and Simple
+
+
+  
