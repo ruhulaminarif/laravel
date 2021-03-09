@@ -1,0 +1,36 @@
+Open CMD
+=========
+
+PHP Version Check code
+----------------------
+php -v
+=============
+
+composer Check
+=============================
+
+Laravel Install 2 way
+=====
+composer global require laravel/installer
+
+laravel new example-app
+
+cd example-app
+
+php artisan serve
+=======================
+
+cd example-app
+
+cd example-app
+
+php artisan serve
+================
+
+2nd Way to Install laravel
+---------------------------
+composer create-project laravel/laravel laravelecommerce "5.4.*"
+
+
+
+
