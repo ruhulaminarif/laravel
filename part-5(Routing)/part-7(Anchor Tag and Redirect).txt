@@ -1,0 +1,19 @@
+
+
+create anchor tag any page
+===========================
+
+<a href="/contact">contact</a>
+
+herf a web.php ar /page name ta use korle anchor tag hoya jabe/
+Route::view("contact",'/contact');
+Use This: /contact
+
+
+====================================
+Redirect
+
+Route::get('/', function () {
+    return redirect('contact');
+});
+

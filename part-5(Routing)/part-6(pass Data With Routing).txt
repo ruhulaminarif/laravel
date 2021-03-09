@@ -1,0 +1,20 @@
+
+routes->web.php
+
+Route::get('/{name}', function ($name) {
+	echo $name;
+    return view('hello');
+});
+
+=================================
+
+2nd way
+-----------
+
+Route::get('/{name}', function ($name) {
+    return view('hello',['name'=>$name]);
+});
+
+show korar jono HTML file a likte hobe
+{{$name}}
+

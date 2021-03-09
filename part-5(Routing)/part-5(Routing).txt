@@ -1,0 +1,43 @@
+Routing
+==============
+
+What is Routing
+---------------
+akta project ounder mode new url
+
+Routing in Laravel allows you to route all your application requests to its appropriate controller. 
+The main and primary routes in Laravel acknowledge and accept a URI (Uniform Resource Identifier)
+ along with a closure, given that it should have to be a simple and expressive way of routing.
+=============================
+
+How to make Routing
+====================
+resources -> views-> custom.blaid.php
+
+thene
+
+routes->web.php
+url
+page
+=======
+
+what is blade
+============
+Blade is the simple, yet powerful templating engine that is included with Laravel.
+
+create Routing
+===============
+Go -> resources -> views-> about.blaid.php
+
+Thene
+
+Go->routes->web.php
+Route::get('/home', function () {
+    return view('about');
+});
+
+or
+----
+Route::view("contact",'/contact');
+=========================
+
