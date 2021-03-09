@@ -1,0 +1,11 @@
+ File Change
+==============
+
+Resources> Views -> welcome.blade.php
+
+Every File Name Must Use blade
+==================================
+
+New File create URL 
+routes -> web.php
+
