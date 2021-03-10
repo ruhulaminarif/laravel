@@ -1,0 +1,3 @@
+What is Controller?
+Controllers are meant to group associated request handling logic within a single class.
+ In your Laravel project, they are stored in the app/Http/Controllers'

@@ -1,0 +1,52 @@
+open Cmd commend
+
+##Create Controller
+======================
+php artisan make:controller UserController
+
+// UserController controller name
+
+##Make Function Controller
+==========================
+
+class UserController extends Controller
+{
+    //
+    function show(){
+    	return "Hello From controller";
+    }
+}
+
+##Call Controller Frome Routing
+===============================
+
+Show controller so use Routers web.php
+
+First import controller
+
+use App\Http\Controllers\UserController
+
+Route::get("user",[UserController::class,'show']);
+
+
+Pass Params With Url
+=======================
+First Routing file a 
+
+Route::get("user/{id}",[UserController::class,'show']);
+
+//{id} - id pass korar jono
+
+UserController File a
+
+class UserController extends Controller
+{
+    //
+    function show($id){
+    	return $id;
+    }
+}
+
+
+
+
