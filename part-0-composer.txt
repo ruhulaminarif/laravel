@@ -1,0 +1,10 @@
+Download Composer
+=================
+Opnen Cmd commend 
+Use Composer commend
+
+D:\XAMPP\htdocs\idb\laravel>composer
+
+Check PHP Verson
+
+php -v
